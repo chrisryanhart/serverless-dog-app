@@ -13,12 +13,12 @@ Note that the plan was to store the data into the google cloud firestore databas
 - **Google Cloud Firestore Database:**
 - ![db schema model](google-cloud-firestore.png?raw=true 'serverless-app-architecture')
 
-**How to Run and/or Install the Translation App:**
+**How to Run and/or Install the Servless Dog App:**
 
-1. Simply visit https://translation-app.surge.sh/ or continue reading for local installation
+1. Simply visit http://serverless-dog.s3-website.us-east-2.amazonaws.com/ or continue reading for local installation
 2. Clone the web folder to local directory
 3. Open the index.html file and the app will be able to communicate with the external lambda function.
-4. I was unable to create a dockerfile that would allow other developers to easily install and run the app.
+4. I was unable to create a dockerfile that would allow other developers to easily install and run the app.  I would figure this out in docker and make a way to easily run the environment locally.
 
 
 
@@ -41,6 +41,10 @@ Note that the plan was to store the data into the google cloud firestore databas
 * Restrict resource permissions.  
 	* I granted open public read/write access in order to obtain a proof of concept.
 	* Going forward, I would confirm the minimum permissions required by the app
+
+* Create a docker file so other developers can run the same envrionment locally
+
+* Add error handling in the JavaScript and lambda function api calls
 
 * Implement delete button capability to remove stored dogs from the database
 
