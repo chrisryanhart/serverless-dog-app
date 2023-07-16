@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>serverless-dog-app</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+</head>
+<body>
+
+    <!-- Your HTML content goes here -->
+    <h1>Welcome to the dog app</h1>
+
+    <section id="dog-button">
+      <div >
+        <button id="new-dog-button">Find New Dog</button>
+      </div>
+      <div style="margin-top: 10px;">
+        <button>Delete All Dogs</button>
+      </div>
+    </section>
+
+    <!-- newly added dogs -->
+
+    <section id="stored-dogs">
+      <h1>Here are the stored dogs:</h1>
+      <div id="dog-container">
+        
+      </div>
+    </section>
+  
+  <script src="static/index.js"></script>
+</body>
+</html>
