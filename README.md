@@ -11,7 +11,7 @@ Note that the plan was to store the data into the google cloud firestore databas
 - **App Architecture:**
   ![db schema model](serverless-app-architecture.png?raw=true 'serverless-app-architecture')
 - **Google Cloud Firestore Database:**
-- ![db schema model](google-cloud-firestore.png?raw=true 'serverless-app-architecture')
+ ![db schema model](google-cloud-firestore.png?raw=true 'serverless-app-architecture')
 
 **How to Run and/or Install the Servless Dog App:**
 
@@ -68,4 +68,4 @@ I'm fairly happy with what I was able to accomplish, given that I had zero prior
 
 While I have no prior experience with serverless technologies and docker, I find them all fascinating and would love to master these new tools.  I have a strong aptitude to learn and would enjoy the work.
 
-Finally I would like to add that all work has been done independently by me with zero assistance from other people.  Integrity is a top value for me and if I speak openly and honestly if there was a problem I could not solve.  
+Finally I would like to add that all work has been done independently by me with zero assistance from other people.  Integrity is a top value for me and I speak openly and honestly if there was a problem I cannot not solve.  
